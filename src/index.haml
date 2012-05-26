@@ -1,0 +1,104 @@
+!!!
+%html{ :lang => 'en' }
+  %head
+    %title= 'The Former - Fall From Grace'
+    %meta{ :charset => 'utf-8' }
+    %meta{ :name => 'viewport', :content => 'width=device-width, initial-scale=1.0'}
+
+    %link{ :rel => 'shortcut icon', :href => 'favicon.ico' }
+    %link{ :rel => 'stylesheet', :href => 'css/1140.css' }
+    %link{ :rel => 'stylesheet', :href => 'css/main.css' }
+    %link{ :rel => 'stylesheet', :href => 'http://fonts.googleapis.com/css?family=Sonsie+One:400', :type => 'text/css' }
+    //%link{ :rel => 'stylesheet', :href => 'http://fonts.googleapis.com/css?family=Exo:700,900', :type => 'text/css' }
+    %link{ :rel => 'stylesheet', :href => 'http://fonts.googleapis.com/css?family=Open+Sans:400,600' }
+
+    %script{ :type => 'text/javascript', :src => 'js/css3-mediaqueries.js' }
+    %script{ :type => 'text/javascript', :src => 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js' }
+    %script{ :type => 'text/javascript', :src => 'http://stratus.sc/stratus.js' }
+    :javascript
+      $(document).ready(function(){
+        $.stratus({
+          random: false,
+          links: 'http://soundcloud.com/theformer/sets/the-former-fall-from-grace'
+        });
+      });
+
+
+  %body
+
+    .container.header
+      .row
+        .eightcol
+          %h1.threedeetext
+            %a{ :href => 'index.html' }
+              The Former
+        .fourcol.last
+          //%img{ :src => 'images/social/facebook.png' }
+          //%img{ :src => 'images/social/googleplus.png' }
+          %a{ :href => 'http://www.last.fm/music/The+Former' }
+            %img{ :src => 'images/social/lastfm.png' }
+          %a{ :href => 'http://soundcloud.com/theformer/sets/the-former-fall-from-grace/' }
+            %img{ :src => 'images/social/soundcloud.png' }
+          //%img{ :src => 'images/social/twitter.png' }
+          //%img{ :src => 'images/social/youtube.png' }
+
+    .container.album
+      .row
+        .sixcol
+          %img{ :alt => 'Fall From Grace', :src => 'images/cd-stacked.png'}
+        .sixcol.last
+          %h2
+            Fall From Grace (2012)
+          %ul
+            %li
+              %a.stratus{ :href => 'http://soundcloud.com/theformer/preamble' }
+                &#x25b6; 1. Preamble
+            %li
+              %a.stratus{ :href => 'http://soundcloud.com/theformer/fall-from-grace' }
+                &#x25b6; 2. Fall From Grace
+            %li
+              %a.stratus{ :href => 'http://soundcloud.com/theformer/let-me-help-let-me-fade' }
+                &#x25b6; 3. Let Me Help (Let Me Fade)
+            %li
+              %a.stratus{ :href => 'http://soundcloud.com/theformer/1984-1' }
+                &#x25b6; 4. 1984
+            %li
+              %a.stratus{ :href => 'http://soundcloud.com/theformer/toward-the-sky' }
+                &#x25b6; 5. Toward the Sky
+            %li
+              %a.stratus{ :href => 'http://soundcloud.com/theformer/shadow-of-the-night' }
+                &#x25b6; 6. Shadow of the Night
+            %li
+              %a.stratus{ :href => 'http://soundcloud.com/theformer/conflictor' }
+                &#x25b6; 7. Conflictor
+            %li
+              %a.stratus{ :href => 'http://soundcloud.com/theformer/red-sun' }
+                &#x25b6; 8. Red Sun
+            %li
+              %a.stratus{ :href => 'http://soundcloud.com/theformer/the-calm-before' }
+                &#x25b6; 9. The Calm Before
+            %li
+              %a.stratus{ :href => 'http://soundcloud.com/theformer/funktronica' }
+                &#x25b6; 10. Funktronica
+
+    .container.blurb
+      .row
+        .fourcol
+          %h2
+            The Former
+          %p
+            The ongoing five year effort of the Kansas City based band The Former, once known as The Roketa Project, culminating to the release of the debut album <b>Fall From Grace</b>. The group consisting of two members Mikhail Marchenko and Sergey Kutserubov worked closely on creating a soundscape that spans many genres. The variety of the music recorded offers a mix of electronic funk, dark alternative rock and reggae-pop melodies.
+        .eightcol.last
+          %h2
+            News
+          %p
+            %b
+              May 25, 2012
+          %p
+            The Former has launched their web presence <b><a href="http://theformermusic.com">www.theformermusic.com</a></b> today. Tune in for more news regarding the official release of the album. You can already hear the entire album streaming on our Soundcloud page free of charge!
+
+    .container.footer
+      .row
+        .twelvecol.last
+          %p
+            &copy; 2012 The Former. All rights reserved.
